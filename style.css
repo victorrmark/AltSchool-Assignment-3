@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: #f5f8fa;
+    padding: 2rem 3.5rem 5rem;
+    color: #1D2C3C;
+}
+
+header{
+    border-bottom: 1px solid  #E0E6EA;
+    padding-bottom: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    justify-self: flex-end;
+}
+
+nav ul{
+    display: flex;
+    gap: 4rem;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    font-size: 1.4rem;
+    font-family: lato;
+    text-decoration: none;
+    color: #1D2C3C;
+    font-weight: bold;
+}
+
+.button{
+    padding: .6rem 1rem;
+    border-radius: .4rem;
+    border: 2px solid #646E7A;
+}
+
+main{
+    width: 892px;
+    margin: 7rem auto 2rem;
+    border-radius: 6px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 0 20px 5px #0000000D;
+}
+
+.checkout-section{
+    background: #ffffff;
+    padding: 5rem 0;
+    width: 65%;
+}
+
+h1{
+    font-family: lato;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    margin-bottom: 4rem;
+    text-shadow: 0px 4px 3px #00000040;
+}
+
+.basic-info, .payment-info, .submit{
+    padding: 3.5rem 3.5rem;
+    border-top: 1px solid #F5F7FA;
+}
+
+.head{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.help span, .head span{
+    color: #548BC5;
+    border: 2px solid #548BC5;
+    border-radius: 50%;
+    padding: .2rem .7rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.head p{
+    font-size: 1.8rem;
+    font-weight: 700
+}
+
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group .field-set:last-child{
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.field-set{
+    width: 47%;
+    display: flex;
+    gap: .8rem;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+input{
+    padding: .9rem;
+    color: #646E7A;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: .3rem;
+    background: #EDEFF2;
+}
+
+/* hide input type number couter */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* for firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+input:focus{
+    outline: none;
+}
+
+.form-group2{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.field-set2{
+    display: flex;
+}
+
+.field-set2 input:first-child{
+    width: 70%;
+}
+
+.field-set2 input{
+    width: 15%;
+}
+
+.submit{
+    padding-bottom: 1.5rem;
+}
+
+input[type="submit"]{
+    background: #038E7D;
+    color: #fff;
+    width: 100%;
+    border-radius: .7rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.help{
+    text-align: center;
+}
+
+.help p, b{
+    font-size: 1.4rem;
+}
+
+.help img{
+    margin-top: 1.5rem;
+}
+
+aside{
+    padding: 5rem 4.5rem;
+    background: #1179BF;
+    width: 25%;
+    color: #fff;
+}
+
+.plan p, .plan em{
+    font-size: 2rem;
+}
+
+p.price{
+    font-size: 6rem;
+    margin: 1rem 0 1rem;
+}
+
+sup, .price span{
+    font-size: 3rem;
+}
+
+.li-image{
+    margin: 2.5rem 0;
+}
+.li-image li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+li p{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.switch p, .switch a, .switch em, .switch b{
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.switch a{
+    font-weight: 700;
+}
+
+.quote{
+    border-top: 1px solid #F5F7FA;
+    margin-top: 3rem;
+    padding-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.quote  p, .quote b{
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.testifier{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.testifier p{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.foot-note{
+    text-align: center;
+}
+
+.foot-note p, .foot-note a{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
